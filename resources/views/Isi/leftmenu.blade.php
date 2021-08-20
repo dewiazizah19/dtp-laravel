@@ -22,7 +22,7 @@
               <p>Dashboard</p>
             </a>
           </li>
-            <li class="active ">
+            <li>
             <a href="./icons.html">
               <i class="nc-icon nc-diamond"></i>
               <p>Icons</p>
