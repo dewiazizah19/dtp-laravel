@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\viewcontroller;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,38 +14,20 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/', [viewcontroller::class, 'index']);
 
-Route::get('/dashboard.html', function () {
-    return view('dashboard');
-});
+Route::get('/dashboard.html', [viewcontroller::class, 'dashboard']);
 
-Route::get('/icons.html', function () {
-    return view('icons');
-});
+Route::get('/icons.html', [viewcontroller::class, 'icons']);
 
-Route::get('/map.html', function () {
-    return view('map');
-});
+Route::get('/map.html', [viewcontroller::class, 'map']);
 
-Route::get('/notifications.html', function () {
-    return view('notifications');
-});
+Route::get('/notifications.html', [viewcontroller::class, 'notifications']);
 
-Route::get('/user.html', function () {
-    return view('user');
-});
+Route::get('/user.html', [viewcontroller::class, 'user']);
 
-Route::get('/tables.html', function () {
-    return view('tables');
-});
+Route::get('/tables.html', [viewcontroller::class, 'tables']);
 
-Route::get('/typography.html', function () {
-    return view('typography');
-});
+Route::get('/typography.html', [viewcontroller::class, 'typography']);
 
-Route::get('/upgrade.html', function () {
-    return view('upgrade');
-});
+Route::get('/upgrade.html', [viewcontroller::class, 'upgrade']);

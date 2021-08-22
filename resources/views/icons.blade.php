@@ -6,7 +6,7 @@
     <div class="col-md-12">
       <div class="card demo-icons">
         <div class="card-header">
-          <h5 class="card-title">100 Awesome Nucleo Icons</h5>
+          <h5 class="card-title">{{$nama}}</h5>
           <p class="card-category">Handcrafted by our friends from <a href="https://nucleoapp.com/?ref=1712" rel="nofollow">NucleoApp</a></p>
         </div>
         <div class="card-body all-icons">
